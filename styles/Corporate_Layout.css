@@ -1,0 +1,402 @@
+body
+	{
+	font-family:Verdana;
+	font-size:12px;
+	text-align:center;
+	}
+/* ===== HOMEPAGE ===== */
+.Header_Home
+	{
+	background-color:#103B65;
+	}
+.Header_Login
+	{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#FFFFFF;
+	background-color:#103B65;
+	}
+.Header_Login a:link{color:#FFFFFF;}
+.Header_Login a:visited{color:#FFFFFF; text-decoration:none;}
+.Header_Login a:hover{color:#E48D19; text-decoration:underline;}
+/* Top Menu navigation */
+.topnav
+	{
+	color:#E48C19;
+	}
+.Detail_Border_Bottom_Nav
+	{
+	border-bottom:1px solid #D4E7F1;
+	}
+.topnav ul
+	{
+	margin:0;
+	padding:0px 0px 0px 12px;
+	display:inline;
+	list-style:none;	
+	margin-top:24px;
+	font-family:Arial, Helvetica, sans-serif;
+	}
+.topnav li
+	{
+	margin:0px 15px 0px 0px;
+	display:inline;
+	font-weight:bold;
+	font-size:12px;
+	text-transform:uppercase;
+	}
+.topnav li a
+	{
+	color:#00436A;
+	letter-spacing:.06em;
+	text-decoration:none;
+	}
+.topnav li a:link{color:#00436A;}
+.topnav li a:visited{color:#00436A;}
+.topnav li a:hover{color:#E48C19;}
+/* boxes under Slideshow */
+.Home_Box_Blue
+	{
+	background-color:#DFEEEF;
+	}
+.Home_Left_Box
+	{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+	line-height:1.5em;
+	color:#FFFFFF;
+	padding:10px;
+	background:#E48D19 url(/corp/images/Background_Orange_Box.gif) bottom right no-repeat;
+	}
+.Home_Middle_Box
+	{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	line-height:1.5em;
+	padding:10px;
+	background-color:#DFEEEF;
+	}
+.Home_Middle_Box h1
+	{
+	font-size:20px;
+	font-weight:bold;
+	line-height:1.2em;
+	margin-bottom:9px;
+	}
+.Home_Right_Box
+	{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	line-height:1.5em;
+	padding:12px;
+	background:#DFEEEF url(/corp/images/Background_Blue_Box.gif) top left no-repeat;
+	}
+.Home_Right_Box h1
+	{
+	font-size:20px;
+	font-weight:bold;
+	line-height:1.2em;
+	color:#E48D19;
+	margin-bottom:9px;
+	}
+.Footer
+	{
+	color:#2C4255;
+	font-size:10px;
+	}
+/* ===== DETAIL PAGE ===== */
+.Header_Login_Detail
+	{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#000000;
+	background-color:#0E3B64;
+	}
+.Header_Login_Detail a:link{color:#000000;}
+.Header_Login_Detail a:visited{color:#000000; text-decoration:none;}
+.Header_Login_Detail a:hover{color:#103B65; text-decoration:underline;}
+/* Left menu */
+.Left_Menu
+	{
+	background:#00436A url(/corp/images/Background_Left_Menu_Detail.gif) center right no-repeat;
+	text-align:right;
+	}
+.Left_Menu_Background
+	{
+	background-color:#00436A;
+	}
+.Left_Menu h1
+	{
+	width:124px;
+	margin-top:50px;
+	text-indent:0;
+	font-size:11px;
+	line-height:14px;
+	text-transform:uppercase;
+	color:#E48C19;
+	}
+.Left_Menu h2
+	{
+	width:124px;
+	margin-top:18px;
+	text-indent:0;
+	font-size:12px;
+	line-height:14px;
+	text-transform:uppercase;
+	color:#E48C19;
+	}
+.Left_Menu p
+	{
+	margin-right:18px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight:bold;
+	line-height:13px;
+	color:#FFFFFF;
+	}
+.Left_Menu a
+	{
+	text-decoration:none;
+	font-weight:bold;
+	}
+.Left_Menu a:active{color:#FFFFFF;}
+.Left_Menu a:visited{color:#FFFFFF;}
+.Left_Menu a:hover{color:#E48D19;}
+a.Left_Menu_Link /* link color not rendering in IE */
+	{
+	text-decoration:none;
+	font-weight:bold;
+	}
+a:link.Left_Menu_Link{color:#FFFFFF;}
+a:visited.Left_Menu_Link{color:#FFFFFF;}
+a:hover.Left_Menu_Link{color:#E48D19;}
+/* Main content, center of page */
+.Main
+	{
+	width:510px;
+	padding:28px 16px 6px 20px;
+	}
+.Main_Border
+	{
+	border-top:1px solid #7396C2;
+	border-right:1px solid #7396C2;
+	}
+.Main h2
+	{
+	margin-top:28px;
+	margin-bottom:6px;
+	font-size:14px;
+	line-height:16px;
+	letter-spacing:0.04em;
+	text-transform:uppercase;
+	color:#E48D19;
+	}
+.Main p
+	{
+	font-family:Verdana, Geneva, sans-serif;
+	margin-top:0px;
+	margin-bottom:8px;
+	font-size:12px;
+	line-height:17px;
+	}
+.Main ul
+	{
+	margin-top:2px;
+	margin-bottom:10px;
+	margin-left:.5em;
+	padding-left:.5em;
+	font-family:Verdana, Geneva, sans-serif;
+	}
+.Main li
+	{
+	font-size:12px;
+	line-height:16px;
+	margin-bottom:6px;
+	list-style-type:square;
+	}
+.Main_Bottom_Box
+	{
+	font-family:Arial, Helvetica, sans-serif;
+	background-color:#F6D17F;
+	border-bottom:#E48D19 solid 1px;
+	border-right:1px solid #7396C2;
+	}
+/* right items */
+.Right_Area
+	{
+	padding:28px 4px 0px 20px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	line-height:14px;
+	}
+.Right_Area_Blue_Box
+	{
+	width:200px;
+	margin-top:24px;
+	margin-bottom:8px;
+	padding:6px;
+	background:#DFEEEF url(/corp/images/Background_Detail_Blue_Box_Corner.gif) top right no-repeat; 
+	border-bottom:#00446A solid 1px;
+	}
+.Right_Area_Blue_Box h1
+	{
+	margin-top:6px;
+	font-weight:bold;
+	font-size:12px;
+	line-height:14px;
+	color:#00436A;
+	}
+
+/* ===== Links ===== */
+/* basic */
+a:link{color:#00436A;}
+a:visited{color:#00436A;}
+a:hover{color:#E48D19;}
+
+/* ===== Utility Text Styles ===== */
+.pointer
+	{
+	cursor:pointer;
+	}
+.arial
+	{
+	font-family:Arial;
+	}
+.center
+	{
+	text-align:center;
+	}
+.right
+	{
+	text-align:right;
+	}
+.justify
+	{
+	text-align:justify;
+	}
+.bold
+	{
+	font-weight:bold;
+	}
+.italic
+	{
+	font-style:italic;
+	}
+.no_underline
+	{
+	text-decoration:none;
+	}
+.underline
+	{ 	
+	text-decoration:underline; 
+	}
+.white
+	{
+	background-color:#FFFFFF;
+	}
+.black
+	{	
+	color:#000000;
+	}
+.red
+	{
+	color:#FF0000;
+	}
+.gold
+	{
+	color:#856400;
+	}
+.orange
+	{
+	color:#E48D19;
+	}
+.yellow
+	{
+	color:#FFCC00;
+	}
+.gray
+	{
+	color:gray;
+	}
+.border
+	{
+	border:1px solid Black;	
+	}
+
+/* Slideshow.  Currently does not work in IE. */
+#slider-wrapper
+	{
+    width:800px;
+    height:320px;
+    margin:0;
+    padding:0;
+	}
+#slider
+	{
+	position:relative;
+    width:800px;
+    height:320px;
+	/*  margin-left:190px;
+	background:url(demo/img/loading.gif) no-repeat 50% 50%; */
+	}
+#slider img
+	{
+	position:absolute;
+	top:0px;
+	left:0px;
+	display:none;
+	}
+#slider a
+	{
+	border:0;
+	display:block;
+	}
+.nivo-controlNav
+	{
+	position:absolute;
+	left:540px;
+	bottom:2px;
+	}
+.nivo-controlNav a
+	{
+	display:block;
+	width:18px;
+	height:22px;
+	background:url(../html/img/Slideshow_bullets.png) no-repeat;
+	text-indent:-9999px;
+	border:0;
+	margin-right:3px;
+	float:left;
+	}
+.nivo-controlNav a.active
+	{
+	background-position:0 -22px;
+	}
+.nivo-directionNav a
+	{
+	display:block;
+	width:37px;
+	height:37px;
+	background:url(../html/img/Slideshow_arrows.png) no-repeat;
+	text-indent:-9999px;
+	border:0;
+	}
+a.nivo-nextNav
+	{
+	background-position:-37px 0;
+	/* right:15px; */
+	}
+a.nivo-prevNav
+	{
+	/* left:15px; */
+	}
+.nivo-caption
+	{
+    text-shadow:none;
+    font-family:Helvetica, Arial, sans-serif;
+	}
+.nivo-caption a
+	{ 
+    color:#EFE9D1;
+    text-decoration:underline;
+	}

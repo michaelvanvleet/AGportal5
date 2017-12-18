@@ -1,0 +1,22 @@
+
+/* to use this css instead of local message.css, include this in the local file */
+.infoMsg {
+	/*width:65%;*/
+	padding:7px;padding-left:25px;padding-right:25px;
+	margin-bottom:10px;margin-top:0px;
+	border:1px solid #aaa;
+	background-color:#FFEAB7;
+	margin-right:170px;
+	margin-left:50px;
+	<!---margin-left: auto;
+	margin-right: auto--->
+}
+.errorMsg {
+	width:450px;
+	padding:7px;padding-left:25px;padding-right:25px;
+	margin-bottom:10px;margin-top:0px;
+	border:1px solid #aaa;
+	background-color:#FFEAB7;
+	margin-right:175px;
+	margin-left:50px;
+	color:#FF0000;

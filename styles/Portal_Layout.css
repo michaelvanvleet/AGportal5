@@ -1,0 +1,564 @@
+/* PORTAL STYLES - MY ACCOUNT STYLES BENEATH THESE - LEARNING PATH STYLES BELOW MY ACCOUNT STYLES - GLOBAL ADVICE STYLES BELOW MY ACCOUNT STYLES */
+/* Left Menu */
+.Left_Nav_TD
+	{
+	background-color:#2877A9;
+	}
+.Left_Nav_TD_Live
+	{
+background-color:#dcf1fa; 
+	
+	
+	
+	
+	
+		
+	}
+	
+
+
+
+
+#sitewarning_outer {
+    padding-top: 10px;
+    width: 770px;
+    padding-bottom: 5px;
+   background-color: #ffffff;
+    margin-top: 10px;
+	margin-left: 20px;
+    border-top-width: 1px;
+    border-left-width: 1px;
+    border-bottom-width: 1px;
+	  border-radius: 10px;
+    border-right-width: 1px;
+    border-color: #f7a20f;
+    border-style: solid;
+}
+
+#sitewarning_inner {
+    margin-left: 5px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    color: #24557e;
+	   font-weight: bold;
+    font-family: arial;
+    font-size: 10pt;
+	
+		    padding-left: 8px;
+	padding-right: 5px;
+ 
+}
+
+.section_TD_Live
+	{
+		background:url(../img/portalsecheader.png);
+	}	
+	
+	
+.Left_Nav_TD_Background
+	{
+	height:24px;
+	background:url(/portal/img/Left_Nav_Accordion_Background.gif);
+	}
+/* My Account */
+.Left_Nav_TD_Background_Contributions
+	{
+	height:24px;
+	background:url(/myAccount/images/Left_Nav_Accordion_Background_Contributions.gif);
+	}
+.Left_Nav_TD_Background_Contributions_Live
+	{
+	height:24px;
+	background:url(/myAccount/images/Left_Nav_Accordion_Background_Contributions_Live.gif);
+	}
+.Left_Nav_TD_Background_Admin
+	{
+	height:24px;
+	background:url(/myAccount/images/Left_Nav_Accordion_Background_Admin.gif);
+	}
+.Left_Nav_TD_Background_Admin_Live
+	{
+	height:24px;
+	background:url(/myAccount/images/Left_Nav_Accordion_Background_Admin_Live.gif);
+	}
+.Left_Nav_Sub_Menu_Background_Live
+	{
+	height:24px;
+	background:url(/portal/img/Left_Nav_Sub_Menu_Accordion_Background_Live.gif);
+	}
+.Left_Nav_Sub_Menu_Background
+	{
+	height:24px;
+	background:url(/portal/img/Left_Nav_Sub_Menu_Accordion_Background.gif);
+	}
+.Left_Nav_Sub_Menu
+	{
+	padding-left:20px;
+	padding-top:4px;
+	padding-bottom:4px;
+	/*background-color:#5BB7DE; */
+	background-color:#2877a9;
+	
+	
+	display:block;
+	}
+.Left_Nav_Sub_Menu_Live
+	{
+	padding-left:20px;
+	padding-top:4px;
+	padding-bottom:4px;
+	background-color:#DCF1FA;
+
+	display:block;
+	}
+.Position_Text_Area /* Portal-Flag-It Form; My Account-Administration */
+	{
+	width:536px;
+	height:150px;
+	}
+/* Welcome page - Globesmart Quick Launch */
+.Quick_Launch /* I.E. Hack for positioning, I.E. sees this */
+	{
+	margin-top:40px;
+	margin-right:50px;
+	font-family:Arial;
+	font-size:10px;
+	font-weight:bold;
+	text-align:center;
+	color:#393F40;
+	float:right;
+	}
+html>body .Quick_Launch /* I.E. Hack for positioning, I.E. does not see this */
+	{
+	margin-top:2px;
+	margin-right:50px;
+	font-family:Arial;
+	font-size:10px;
+	font-weight:bold;
+	text-align:center;
+	color:#393F40;
+	float:right;
+	}
+/* Shortcuts */
+.Position_Shortcut_Field
+	{
+	width:790px;
+	}
+a.Shortcuts
+	{
+	color:#2C4255;
+	font-weight:bold;
+	text-decoration:none;
+	}
+a:link.Shortcuts{color:#2C4255;}
+a:visited.Shortcuts{color:#2C4255;}
+a:hover.Shortcuts{color:#A08046;}
+/* Tools */
+.Tools_Accordion_Header
+	{
+	height:24px;
+	background-color:#F6F8D4;
+	color:#7D6D2D;
+	font-family:Arial;
+	font-weight:bold;
+	cursor:pointer;
+	}
+.Tools_Accordion_subtext
+	{
+	height:24x;
+	padding-left:18px;
+	padding-right:18px;
+	padding-bottom:4px;
+	background-color:#F6F8D4;	
+	}
+.Header_Tools
+	{
+	font-family:Arial;
+	font-size:16px;
+	font-weight:bold;
+	}
+/* Calendar */
+.Position_Calendar /* I.E. Hack for positioning, I.E. sees this */
+	{
+	margin-top:2px;
+	margin-right:12px;
+	float:right;
+	}
+html>body .Position_Calendar /* I.E. Hack for positioning, I.E. does not see this */
+	{
+	margin-top:-22px;
+	margin-right:17px;
+	float:right;
+	}
+.Calendar_Border
+	{
+	border:1px dotted black;
+	}
+.Calendar_Cell_Border
+	{
+	font-size:10px;
+	color:gray;
+	}
+.Calendar_Header_Background
+	{
+	background-color:#2C4255;
+	color:#FFFFFF;
+	}
+.Calendar_Cell_Background
+	{
+	background-color:#FFFFFF;
+	}
+.Calendar_Cell
+	{
+	border:1px dotted silver;
+	}
+.Calendar_Month_Now
+	{
+	background-color:#FFFFFF;
+	}
+.Calendar_Month_Other
+	{
+	background-color:#CFE5E6;
+	color:#000000;
+	}
+
+/* LEARNING PATH STYLES */
+
+/* ===== List ===== */
+.List_Row_Learning_Path
+	{
+	background-color:#FFFFFF;
+	}
+/* The Path Progress graph */
+.Position_Progress_Graph
+	{
+	height:14px;
+	width:800px;
+	background:url(/learningPaths/images/Learning_Path_Graph_Background.jpg);
+	background-repeat:no-repeat;
+	}
+.Position_Progress_Graph_Left_Spacer
+	{
+	float:left;
+	height:14px;
+	width:24px;
+	}
+.Position_Progress_Graph_Dot
+	{
+	float:left;
+	height:14px;
+	width:22px;
+	}
+.Position_Progress_Graph_Dot_Rightmost
+	{
+	float:right;
+	height:14px;
+	width:21px;
+	margin-right:24px;
+	}
+.Position_Legend
+	{
+	height:40px;
+	width:800px;
+	}
+.Position_Progress_Graph_Legend
+	{
+	font-family:Arial;
+	font-size:14px;
+	margin-top:12px;
+	float:right;
+	}
+/* Table */
+.Detail_Table
+	{
+	border:1px solid #B5964E;
+	}
+.Detail_Table_Header td
+	{
+	font-family:Arial;
+	font-size:11px;
+	font-weight:bold;
+	color:#845A2A;
+	border-bottom:1px solid #B5964E;
+	}
+/* ===== Links ===== */
+a.Paths
+	{
+	font-family:Arial;
+	font-size:18px;
+	font-weight:bold;
+	color:#000000;
+	text-decoration:none;
+	}
+a:link.Paths{color:#000000;}
+a:visited.Paths{color:#000000;}
+a:hover.Paths{color:#A08046;}
+
+/* MY ACCOUNT STYLES */
+
+/* Left Menu */
+.Left_Nav_Sub_Menu
+	{
+	padding-left:20px;
+	padding-top:4px;
+	padding-bottom:4px;
+	
+	
+		/*background-color:#5BB7DE; */
+	background-color:#2877a9;
+	
+	display:block;
+	}
+	
+	
+/*	
+.Left_Nav_Sub_Menu_Live
+	{
+	padding-left:20px;
+	padding-top:4px;
+	padding-bottom:4px;
+	background-color:#24557e;
+	
+	
+
+	
+	
+	display:block;
+	}
+*/
+	
+/* ===== Links ===== */
+/* Left Nav */
+a.Left_Menu_Link
+	{
+	color:#FFFFFF;
+	text-decoration:none;
+	font-family: "Lucida Grande", Arial, Helvetica, sans-serif;
+	font-size:14px;
+	}
+	
+	
+	
+	
+	a:link.Welcome_Menu_Link{color:#FFFFFF;}
+a:visited.Welcome_Menu_Link{color:#FFFFFF;}
+a:hover.Welcome_Menu_Link{color:#91D0EC;}
+a.Welcome_Menu_Link
+	{
+	font-size:14px;
+	color:#FFFFFF;
+	text-decoration:none;
+	margin-left: -8px;
+	}
+	
+	
+a:link.Left_Menu_Link{color:#FFFFFF;}
+a:visited.Left_Menu_Link{color:#FFFFFF;}
+a:hover.Left_Menu_Link{color:#91D0EC;
+
+ text-decoration: underline;
+
+}
+a.Left_Menu_Link_Live
+	{
+	font-size:13px;
+	color:#FFFFFF;
+	text-decoration:none;
+	}
+a:link.Left_Menu_Link_Live{color:#003366;}
+a:visited.Left_Menu_Link_Live{color:#003366;}
+a:hover.Left_Menu_Link_Live{color:#91D0EC;}
+/* smaller Left sub nav that comes up with the accordion */
+a.Left_Menu_Sub_Link
+	{
+	
+	font-size:14px;
+	color:#FFFFFF;
+	text-decoration:none;
+	}
+a:link.Left_Menu_Sub_Link{color:#FFFFFF;}
+a:visited.Left_Menu_Sub_Link{color:#FFFFFF;}
+a:hover.Left_Menu_Sub_Link{color:#91D0EC;}
+a.Left_Menu_Sub_Link_Live
+	{
+	font-size:14px;
+	color:#000000;
+	text-decoration:none;
+	}
+a:link.Left_Menu_Sub_Link_Live{color:#FFFFFF;}
+a:visited.Left_Menu_Sub_Link_Live{color:#000000;}
+a:hover.Left_Menu_Sub_Link_Live{color:#91D0EC;}
+
+/* the Company Admin link */
+a.Left_Menu_Admin_Link
+	{
+	font-family: "Lucida Grande", Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	color:#ffffff;
+	text-decoration:none;
+	}
+a:link.Left_Menu_Admin_Link,{color:#fffff;}
+a:visited.Left_Menu_Admin_Link{color:#ffffff;}
+a:hover.Left_Menu_Admin_Link{color:#FFFFFF;}
+
+/* Left Nav for Admins */
+
+
+a.Left_Menu_Link_Admin_CompanyAdmin
+	{
+	font-family: "Lucida Grande", Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#FFFFFF !important;
+	text-decoration:none;
+		margin-left: -8px;
+				margin-left: -8px;
+
+	}
+
+
+
+a.Left_Menu_Link_Admin
+	{
+	font-family: "Lucida Grande", Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#FFFFFF;
+	text-decoration:none;
+	}
+a:link.Left_Menu_Link_Admin{color:#FFFFFF;}
+a:visited.Left_Menu_Link_Admin{color:#FFFFFF;}
+a:hover.Left_Menu_Link_Admin{color:#91D0EC;
+
+ text-decoration: underline;
+
+}
+
+a.Left_Menu_Link_Admin_Live
+	{
+	font-family: "Lucida Grande", Arial, Helvetica, sans-serif;
+	font-size:13px;
+	color:#FFFFFF;
+	text-decoration:none;
+	}
+a:link.Left_Menu_Link_Admin_Live{color:#003366;}
+a:visited.Left_Menu_Link_Admin_Live{color:#003366;}
+a:hover.Left_Menu_Link_Admin_Live{color:#91D0EC;
+
+ text-decoration: underline;
+}
+
+/* User Info - Profile Picture right side floater */
+.Position_Profile_Pic
+	{
+	margin-top:-4px;
+	margin-right:-6px;
+	float:right;
+	}
+
+/* Company Admin - Company Logo right side floater */
+.Position_Company_Logo
+	{
+	margin-right:16px;
+	/*float:right;*/
+	
+	}
+/* ===== Used by Srini ===== */
+.file_input_textbox
+	{
+	float:left;
+	visibility:hidden;
+	position:absolute;
+	overflow:hidden;
+	}
+.file_input_div
+	{
+	position:relative;
+	width:159px;
+	height:28px;
+	overflow:hidden;
+	}
+.file_input_button
+	{
+	width:159px;
+	position:relative;
+	font-weight:bold;
+	font-size:15px;
+	background-color:#33BB00;
+	color:#FFFFFF;
+	border-style:solid;
+	}
+.file_input_hidden
+	{
+	font-size:45px;
+	position:absolute;
+	right:0px;
+	top:0px;
+	opacity:0;
+	filter:alpha(opacity=0);
+	-ms-filter:"alpha(opacity=0)";
+	-khtml-opacity:0;
+	-moz-opacity:0;
+	cursor:pointer;
+	}
+	.erorr_msg
+	{
+	color: red;
+	}
+	
+/*========copied from message css =========*/
+.infoMsg {
+	/*width:65%;*/
+	width:450px;
+	padding:7px;padding-left:25px;padding-right:25px;
+	margin-bottom:10px;margin-top:0px;
+	border:1px solid #aaa;
+	background-color:#FFEAB7;
+	margin-right:170px;
+	margin-left:50px;
+	<!---margin-left: auto;
+	margin-right: auto--->
+}
+.errorMsg {
+	width:450px;
+	padding:7px;padding-left:25px;padding-right:25px;
+	margin-bottom:2px;margin-top:0px;
+	border:1px solid #aaa;
+	background-color:#FFEAB7;
+	margin-right:175px;
+	margin-left:50px;
+	color:#FF0000
+}	
+
+
+.admin_upperNav {
+	cursor:pointer;  
+	padding-top:8px; 
+	text-align: center;  
+	margin-left: 20px; 
+	background-color:#4186A6; 
+	float: left; 
+	width: 120px; 
+	height:20px; 
+	font-weight:bold; 
+}
+
+.admin_upperNav a {
+	text-decoration:none;
+}
+.admin_upperNav_live {
+	cursor:pointer;  
+	padding-top:8px; 
+	text-align: center; 
+	font-weight:bold; 
+	float: left; 
+	margin-left: 20px; 
+	width: 120px; 
+	height:20px; 
+	background-color:#91D0EC;
+	color:#000000;
+}
+.admin_upperNav_live a{text-decoration:none;color:#4186A6;
+}
+.Header_Link {
+	color: #FFFFFF !important;
+}

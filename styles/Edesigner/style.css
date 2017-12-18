@@ -1,0 +1,211 @@
+/* Global Defaults
+=====================================================================*/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,p,blockquote,tr,th,td,embed,object {
+	margin:0;
+	padding:0;
+}
+table{
+	
+	border-spacing:0;
+}
+fieldset,img,abbr{
+	border:0;
+}
+ul {
+	list-style:none;
+}
+caption,th {
+	text-align:left;
+}
+a,a:link,a:visited,a:hover { 
+	color:#000;
+	text-decoration:none; 
+}
+a:focus,a:hover { 
+	text-decoration:underline;
+}
+a img { 
+	border:0; 
+}
+:focus {
+	outline: 0;
+}
+.clear { 
+	clear:both; 
+}
+.fleft {
+	float: left;
+}
+/* Global Elements
+=====================================================================*/
+body {
+
+}
+
+/* Start CSS Coding
+=====================================================================*/
+
+#welcome {
+	width: 810px;
+	background-color: #FFF;
+	padding: 30px 0 40px 20px;
+	float: left;
+	font-family: Arial, sans-serif;
+	color:  #24557e;
+}
+#welcome .intro {
+	font-size:17px !important;
+	line-height:22px !important;
+	margin-bottom: 25px;
+	margin-right: 40px;
+}
+
+#welcome .tooltip {
+    position: absolute;
+    right: 7px;
+    top: 7px;
+}
+
+#welcome .quik_link_wrapper {
+	float: left;
+	margin-bottom: 15px;
+	position: relative;
+}
+.mr {
+	margin-right: 15px;
+}
+
+#welcome .large {
+	background: url(/resources/Edesigner//images/quik_link_bg_large.png) no-repeat 0 0;
+	width: 387px;
+	height: 92px;
+}
+#welcome .small {
+	background: url(/resources/Edesigner//images/quik_link_bg_small.png) no-repeat 0 0;
+	width: 248px;
+	height: 92px;
+}
+#welcome .quik_link span {
+    font-size: 10px;
+    line-height: 0px;
+    vertical-align: 4px;
+}
+#welcome div.quik_link {	
+	padding:12px 20px 0 12px;
+}
+#welcome .quik_link img {
+	float: left;
+	margin-right: 10px;
+}
+#welcome .quik_link h1 {
+	font-size: 15px;
+	line-height: 16px;
+	padding: 3px 0 0 0;
+	
+}
+#welcome .quik_link h2 {
+	font-size: 14px;
+	line-height: 16px;
+	padding: 3px 0 0 0;
+}
+
+#welcome .quik_link h3 {
+	font-size: 18px;
+	line-height: 20px;
+	padding: 3px 0 0 0;
+}
+
+#welcome .quik_link h1 a { 
+color:  #24557e;
+}
+
+#welcome .quik_link h3 a {
+color:  #24557e;
+}
+
+#welcome .quik_link p {
+	font-size: 13px;
+	line-height: 15px;
+	color: #666;
+}
+#welcome .quik_link p a {
+	font-weight: bold;
+	color: #2f8fbb;
+	line-height: 20px;
+}
+
+#welcome .video_link {
+	width: 385px;
+	text-align: center;
+	position: relative;
+	margin-top: 30px;
+	margin-bottom: 10px;
+	margin-right: 10px;
+}
+
+
+#welcome .video_link_wrap {
+	position: absolute;
+	top: 143px;
+	left: 111px;
+}
+#welcome .video_link_btn {
+	float: left;
+	height: 53px;
+	background: url(/resources/Edesigner//images/btn_right.png) no-repeat 100% 0;
+	color: #fff;
+	font-size: 11px;
+	line-height: 14px;
+	font-weight: bold;
+	margin: 0 20px 0 0;
+	display: inline;
+	width: 175px;
+	text-align: left;
+	text-shadow: -1px -1px 1px rgba(0,0,0,.5);
+	position: relative;
+}
+
+#welcome .video_link_btn span {
+	height: 50px;
+	float: left;
+	background: url(/resources/Edesigner//images/btn_left.png) no-repeat;
+	color: #fff;
+	padding: 12px 20px 0 18px;
+	position: absolute;
+	left: -10px;
+}
+
+html>body #welcome .video_link_btn span {
+	height: 41px;
+	float: left;
+	background: url(/resources/Edesigner/images/btn_left.png) no-repeat;
+	color: #fff;
+	padding: 12px 20px 0 18px;
+	position: absolute;
+	left: -10px;
+}
+
+#welcome .video_link_btn:hover {
+	background: url(/resources/Edesigner//images/btn_right.png) no-repeat 100% -53px;
+	text-decoration: none;
+}
+#welcome .video_link_btn:hover span {
+	background: url(/resources/Edesigner/images/btn_left.png) no-repeat 0 -53px;
+	text-decoration: none;
+}
+
+#welcome .info {
+	background: url(/resources/Edesigner//images/tool_tip_info.png) no-repeat 0 0px;
+	height: 16px;
+	width: 16px;
+}
+#welcome .info:hover {
+	background: url(/resources/Edesigner//images/tool_tip_info.png) no-repeat 0 -16px;
+	height: 16px;
+	width: 16px;
+}
+
+
+
+
+

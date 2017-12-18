@@ -1,0 +1,78 @@
+form.div, .formLabel {
+	margin: 0 0 0.70em 0;
+	/* Div positions itself below floating blocks in the left margin */
+	clear:left; /* make each div clear the left margin below any floating blocks in the left margin */
+}
+/* 	<div><label for="title">Title</label><input type="input" name="title"/></div>	Example: see myAccount/views/uploadFile.cfm */
+
+label {
+	width: 120px;
+	display:block;
+	float:left;
+	margin-top:0.3em;
+	font-weight:bold;
+	padding-right:0.55em;
+	text-align:right;
+}
+/* Secondary labels are positioned underneath the input fields; left margin/padding should match Label right margin/padding
+	Use secondary labels for field info and checkboxes and checkbox labels
+*/
+label.secondary {
+	float:none;
+	width:auto;
+	font-weight:normal;
+	margin: 0 0 0.70em 120px;
+	margin-top:-5px;
+	padding-left:10px;
+	text-align:left;
+	font-size:95%;
+}
+form div.actions {
+	margin-left: 120px;
+	padding-left: 10px;
+}
+input.button {
+	border: 0px solid;
+	color:white;
+	font-weight:600;
+	cursor: hand;
+}
+input.submit {
+	background:url(/img/Submit_Button.jpg) no-repeat;
+	width:66px;
+	height:24px;
+}
+
+input.cancel {
+	background:url(/img/Cancel_Button.jpg) no-repeat;
+	width:70px;
+	height:24px;
+}
+input.mapIt {
+	background: url(/COM/img/icons/MyAccount_mapIt_Button.jpg) no-repeat;
+	width:62px;height:24px;
+}
+input.submit:hover{
+	/*background: url(/COM/img/submit_on.gif) no-repeat;*/
+	cursor:hand;
+}
+/* file upload */
+
+#divinputfile{
+	/*background:url(/COM/img/upload.gif) no-repeat 100% 0px;*/
+	 height:26px;
+	 width:480px;
+	 margin:0px;margin-bottom:5px;
+}
+#divinputfile #assetDONTUSE{
+	opacity: 0.0;
+ 	-moz-opacity: 0.0;
+	 filter: alpha(opacity=0);
+}
+#fakeinputfile{
+	margin-top:-23px;
+}
+#fakeinputfile #fakefile{
+	  width:230px;
+	 height:20px;
+}

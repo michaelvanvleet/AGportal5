@@ -1,0 +1,23 @@
+ul{list-style-type: none;}
+.tfld{width:450px;background-color:ffffff;margin:3px;}
+.ul{list-style-type: none;}
+.cs { margin: 0; padding: 0; width: 95%; }
+.cs li { margin: 0px 0px 3px 0px; padding-left: 0px; border:1px solid gray;background-color:#ffffff; cursor:pointer;}	
+.frmTA{width:95%;height:55px;font-family:Arial;}
+.frm{border:1px solid gray;}
+.w10{width:80px;}
+.w20{width:250px;}
+.formTitle{font-size:17px;font-weight:bold;}
+.formSubTitle{font-size:13px;font-weight:bold;}
+.formEdit{border:1px dotted red;width:95%;}
+.b{font-weight:bold;}
+.btnAdd{float:right;}	
+.btnDrag{float:right;}
+.btnRem{float:right;}
+#navSteps{margin-bottom:20px;}
+.navStep{font-size:14px;font-weight:bold;cursor:pointer;}
+.step {margin-bottom:10px;height:25px;overflow:hidden;}
+.activeStep { border: 3px dotted green;overflow:visible;height:100%; }
+#displayForm ul{margin: 0px 0px 3px 0px; padding-left: 0px; } 
+#displayForm li { list-style-type:none; } 
+.navStep ul{margin: 0px 0px 3px 0px; padding-left: 0px;}

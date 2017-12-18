@@ -1,0 +1,121 @@
+.top_bar {background: #0E3B64;height: 27px;}
+.logo_bar {padding-left: 10px;padding-top: 10px;padding-bottom: 10px;}
+.logo_bar {
+padding-left: 10px;
+padding-top: 10px;
+padding-bottom: 10px;
+}
+.nav_bar{
+padding-left: 0px;
+padding-top: 30px;
+padding-bottom: 10px;
+}
+/* old css
+.main_cell {
+background: #DFEEEF url('/img/Registration_bkgdGraphic.png') bottom right no-repeat;
+padding-left: 24px;
+padding-right: 24px;
+}
+*/
+.main_cell {
+/*background: #DFEEEF url('/img/Registration_bkgdGraphic.png') bottom right no-repeat;*/
+background:  url('/corp/images/AG_bkg_plain.png') repeat;
+}
+
+div.main{
+background:  url('/corp/images/AG_bkg_icons.png') top right no-repeat;
+padding-left:80px;
+/*height: 550px;*/
+}
+
+.label {
+font-family: arial;
+font-size: 12pt;
+color: #FFFFFF;
+padding-top:10px;
+padding-right:10px;
+text-align:right;
+
+}
+.newlabel {
+		font-family: arial;
+		font-size: 14px;
+		color: #ffffff;
+		padding-top:10px;
+		text-align:left;
+	}
+	a.label_link {
+		color: #ffffff;
+		
+	}
+.logIn {
+background: url('/corp/images/LogIn_btn.png') no-repeat;
+width:78px;
+height:30px;
+}
+.continue {
+background: url('/corp/images/Registration_continueBtn.png') no-repeat;
+width: 102px;
+height: 30px;
+}
+.cancel {
+background: url('/corp/images/Registration_cancelBtn.png') no-repeat;
+width: 102px;
+height: 30px;
+}
+a.on {
+font-family: arial;
+font-size: 19pt;
+font-weight: normal;
+color: #24557E;
+text-decoration: none;
+}
+a.off {
+font-family: arial;
+font-size: 19pt;		
+font-weight: normal;
+color: #F99736;
+text-decoration: none;
+
+}
+a.reg_link {
+font-family: "arial, Helvetica,sans-serif";
+font-size: 12pt;		
+color: #FFFFFF;
+
+}
+
+span.on{
+font-family: arial;
+font-size: 14pt;
+font-weight: normal;
+color: #F99736;
+padding-right:20px;
+}
+span.off{
+font-family: arial;
+font-size: 14pt;
+color: #F6D7AD;
+padding-right:20px;		
+}	
+
+.tfldcontinue{
+/*margin-left:400px;
+float:right;
+align:right;*/
+
+}
+
+input[type=submit]{
+    background: url(/img/preworkBtn.png);
+    border: 0;
+    display: block;
+    height: 27px;
+    width: 220px;
+	color:#ffffff;
+	text-align:center;
+	cursor:pointer;
+	font-weight:bold;
+	
+}
+

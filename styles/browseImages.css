@@ -1,0 +1,54 @@
+.imgFrame {
+	padding:5px;
+	border:1px solid #aaa;
+}
+.imgFrame2 	{
+	border:1px solid #aaa;
+}
+.landscape {
+	background-color:white;
+	padding:10px 0px 10px 0px;
+	margin-top:30px;
+}
+.portrait {
+	padding:0px 10px 0px 10px;
+	margin: 25px 0px 0px 0px;
+}
+.landscape_med {
+	background-color:white;
+	padding:20px 20px 20px 20px;
+	margin-top:10px;
+}
+.portrait_med {
+	padding:20px 20px 20px 20px;
+	margin: 10px 0px 0px 0px;
+}
+.q_name_bg {
+	/*background:url(/COM/img/thumb_med_bg.gif) no-repeat left center ;*/
+	width:153px;height:153px;
+	margin:0px;
+	padding-top:10px;
+	vertical-align:middle;
+}
+.q_name_bg2 {
+	/*background:url(/COM/img/thumb_med_bg.gif) no-repeat left center ;*/
+	width:107px;height:107px;
+	margin:0px;
+	padding-top:10px;
+	vertical-align:middle;
+	border:solid red 1px;
+}
+
+.dropshadow {
+	 -moz-box-shadow: 3px 3px 4px #999; /* Firefox */
+	 -webkit-box-shadow: 3px 3px 4px #999; /* Safari/Chrome */
+	 box-shadow: 3px 3px 4px #999; /* Opera and other CSS3 supporting browsers */
+	 -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#999999')";/* IE 8 */
+	 : progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#999999');/* IE 5.5 - 7 */
+}
+#gallery td, #imgGallery td {
+	font-family:verdana;
+	font-size:10pt;
+	color:grey;
+	
+}
